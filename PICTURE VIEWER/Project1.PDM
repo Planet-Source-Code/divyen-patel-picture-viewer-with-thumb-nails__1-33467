@@ -1,0 +1,132 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+Jet 2.x=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system\comdlg32.ocx=
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\windows\system\expsrv.dll=
+c:\windows\system\mscomctl.ocx=
+c:\windows\system\msjet35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msrepl35.dll=
+c:\windows\system\msstdfmt.dll=
+c:\windows\system\msvcrt.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=No
+C:\WINDOWS\SYSTEM\MSJET35.DLL=No
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=No
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=No
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=No
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=No
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=No
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=No
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=No
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Cd Sources\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Picture Viewer.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Picture Viewer\Picture viewer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Picture Viewer.exe=$(AppPath)
+D:\Cd Sources\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Picture Viewer.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Picture Viewer\Picture viewer.exe=No
+E:\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Picture Viewer.exe=No
+D:\Cd Sources\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Picture Viewer.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Picture Viewer 1.0
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Picture Viewer 1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Picture Viewer 1.0]
+Icon1="Picture viewer.exe"
+Title1=Picture Viewer 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Package
+ProjectFolder=D:\Cd Sources\My Data\Visual Basic Data\Source Code\PICTURE VIEWER
+ServerSideCab=
+File1=D:\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Package\setup.exe
+File2=D:\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Package\Setup.Lst
+File3=D:\My Data\Visual Basic Data\Source Code\PICTURE VIEWER\Package\Picture Viewer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
